@@ -9,7 +9,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
        {children}
-       <footer className='bg-blue-500 text-white p-10 flex justify-center'>
+       <footer className='flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52'>
         <p>Hecho con amor &#x1F498; por @carlosfrontend</p>
         
        </footer>
